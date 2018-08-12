@@ -1,0 +1,750 @@
+# depslib dependency file v1.0
+1532547303 source:d:\code blocks projects\ld42\42fw\entity.cpp
+	"entity.h"
+
+1533589573 d:\code blocks projects\ld42\42fw\entity.h
+	"mesh.h"
+	"shader.h"
+	"renderer.h"
+	<glm/glm.hpp>
+	"reference.h"
+
+1532465787 d:\code blocks projects\ld42\42fw\mesh.h
+	"reference.h"
+
+1534011763 d:\code blocks projects\ld42\42fw\reference.h
+	<iostream>
+	<vector>
+	<string>
+	<GL/glew.h>
+
+1516463002 d:\code blocks projects\ld42\42fw\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1534011015 d:\code blocks projects\ld42\42fw\shader.h
+	<fstream>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	"reference.h"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<type_traits>
+	<cstdint>
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+
+1516550312 d:\code blocks projects\ld42\42fw\include\glm\simd\platform.h
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\precision.hpp
+	"setup.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\_swizzle.hpp
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\_swizzle_func.hpp
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec2.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec3.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec4.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec4.inl
+	"type_vec4_simd.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec4_simd.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat2x2.inl
+	"func_matrix.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat2x3.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat2x4.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat3x2.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat3x3.inl
+	"func_matrix.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat3x4.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat4x2.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat4x3.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat4x4.inl
+	"func_matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_mat4x4_simd.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+	"func_geometric_simd.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\type_vec1.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_vector_relational.inl
+	<limits>
+	"func_vector_relational_simd.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_vector_relational_simd.inl
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1516550312 d:\code blocks projects\ld42\42fw\include\glm\simd\exponential.h
+	"platform.h"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1516550312 d:\code blocks projects\ld42\42fw\include\glm\simd\common.h
+	"platform.h"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1516550312 d:\code blocks projects\ld42\42fw\include\glm\simd\geometric.h
+	"common.h"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"func_geometric.hpp"
+	"../simd/matrix.h"
+
+1516550312 d:\code blocks projects\ld42\42fw\include\glm\simd\matrix.h
+	"geometric.h"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_trigonometric.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_trigonometric.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_trigonometric_simd.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+	"func_packing_simd.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\type_half.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_packing_simd.inl
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"func_common.hpp"
+	"func_vector_relational.hpp"
+	"func_integer.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1516550308 d:\code blocks projects\ld42\42fw\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1516550312 d:\code blocks projects\ld42\42fw\include\glm\simd\integer.h
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\constants.inl
+	<limits>
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\quaternion_simd.inl
+
+1516550310 d:\code blocks projects\ld42\42fw\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1532487916 d:\code blocks projects\ld42\42fw\renderer.h
+	"mesh.h"
+	"reference.h"
+
+1534011693 source:d:\code blocks projects\ld42\42fw\mesh.cpp
+	"mesh.h"
+
+1534036434 source:d:\code blocks projects\ld42\42fw\renderer.cpp
+	"renderer.h"
+
+1534011040 source:d:\code blocks projects\ld42\42fw\shader.cpp
+	"shader.h"
+
+1534092783 source:d:\code blocks projects\ld42\42fw\sprite.cpp
+	"sprite.h"
+
+1533956777 d:\code blocks projects\ld42\42fw\sprite.h
+	"mesh.h"
+	"entity.h"
+	"renderer.h"
+	"shader.h"
+	<glm/glm.hpp>
+	"reference.h"
+
+1532486534 source:d:\code blocks projects\ld42\42fw\texture.cpp
+	"texture.h"
+	"stb_image.h"
+
+1532467669 d:\code blocks projects\ld42\42fw\texture.h
+	"reference.h"
+
+1516580932 d:\code blocks projects\ld42\42fw\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1534020554 source:d:\code blocks projects\ld42\42fw\window.cpp
+	"window.h"
+
+1534016721 d:\code blocks projects\ld42\42fw\window.h
+	"reference.h"
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+
+1516032754 d:\code blocks projects\ld42\42fw\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1534115615 source:d:\code blocks projects\ld42\main.cpp
+	"audioplayer.h"
+	"player.h"
+	"mainmenu.h"
+	"reference.h"
+	"renderer.h"
+	"shader.h"
+	"sprite.h"
+	"texture.h"
+	"window.h"
+	"world.h"
+	"AL/al.h"
+
+1534108901 d:\code blocks projects\ld42\player.h
+	"audiosource.h"
+	"audiodata.h"
+	"renderer.h"
+	"shader.h"
+	"sprite.h"
+	"window.h"
+	"bullet.h"
+	<GLFW/glfw3.h>
+	"AL/al.h"
+
+1534115555 source:d:\code blocks projects\ld42\player.cpp
+	"player.h"
+
+1534113838 source:d:\code blocks projects\ld42\world.cpp
+	"world.h"
+
+1534113838 d:\code blocks projects\ld42\world.h
+	<ctime>
+	<stdlib.h>
+	"audiosource.h"
+	"audiodata.h"
+	"reference.h"
+	"bat.h"
+	"bullet.h"
+	"player.h"
+	"renderer.h"
+	"shader.h"
+	"mesh.h"
+	"entity.h"
+	"window.h"
+	"powerup.h"
+
+1533997216 source:d:\code blocks projects\ld42\erereader.cpp
+	"erereader.h"
+
+1533996642 d:\code blocks projects\ld42\erereader.h
+	"reference.h"
+	"world.h"
+	"player.h"
+	<fstream>
+
+1534022650 source:d:\code blocks projects\ld42\tree.cpp
+	"tree.h"
+
+1534021839 d:\code blocks projects\ld42\tree.h
+	<stdlib.h>
+	"sprite.h"
+	"particle.h"
+
+1534020969 d:\code blocks projects\ld42\particle.h
+	"reference.h"
+	"sprite.h"
+	"renderer.h"
+	"shader.h"
+
+1534023999 source:d:\code blocks projects\ld42\particle.cpp
+	"particle.h"
+
+1534114074 source:d:\code blocks projects\ld42\bullet.cpp
+	"bullet.h"
+
+1534113649 d:\code blocks projects\ld42\bullet.h
+	"reference.h"
+	"renderer.h"
+	"shader.h"
+	"sprite.h"
+
+1534114688 source:d:\code blocks projects\ld42\bat.cpp
+	"bat.h"
+
+1534113649 d:\code blocks projects\ld42\bat.h
+	<ctime>
+	<stdlib.h>
+	"reference.h"
+	"renderer.h"
+	"player.h"
+	"shader.h"
+	"sprite.h"
+
+1534104031 d:\code blocks projects\ld42\mainmenu.h
+	"reference.h"
+	"sprite.h"
+
+1534104068 source:d:\code blocks projects\ld42\mainmenu.cpp
+	"mainmenu.h"
+
+1534107370 d:\code blocks projects\ld42\42fw\audiosource.h
+	"AL/al.h"
+	"AL/alc.h"
+
+1533910831 d:\code blocks projects\ld42\42fw\include\al\al.h
+
+1533910831 d:\code blocks projects\ld42\42fw\include\al\alc.h
+
+1534108135 source:d:\code blocks projects\ld42\42fw\audiodata.cpp
+	"audiodata.h"
+
+1533871016 d:\code blocks projects\ld42\42fw\audiodata.h
+	"reference.h"
+	"AL/al.h"
+	<fstream>
+	<windows.h>
+
+1533871016 source:d:\code blocks projects\ld42\42fw\audioplayer.cpp
+	"audioplayer.h"
+
+1533871016 d:\code blocks projects\ld42\42fw\audioplayer.h
+	"reference.h"
+	"AL/al.h"
+	"AL/alc.h"
+
+1533871016 source:d:\code blocks projects\ld42\42fw\audiosource.cpp
+	"audiosource.h"
+
+1534113838 d:\code blocks projects\ld42\powerup.h
+	"reference.h"
+	"sprite.h"
+	"renderer.h"
+	"shader.h"
+
+1534113838 source:d:\code blocks projects\ld42\powerup.cpp
+	"powerup.h"
+

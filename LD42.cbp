@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="LD42" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/LD42" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/LD42" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="42FW" />
+			<Add directory="42FW/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lglew32" />
+			<Add option="-lglu32" />
+			<Add option="-lglfw3" />
+			<Add option="-lgdi32" />
+			<Add option="-lopengl32" />
+			<Add option="-lopenal32" />
+			<Add option="-static-libgcc -static-libstdc++" />
+			<Add directory="libs/32" />
+		</Linker>
+		<Unit filename="42FW/audiodata.cpp" />
+		<Unit filename="42FW/audiodata.h" />
+		<Unit filename="42FW/audioplayer.cpp" />
+		<Unit filename="42FW/audioplayer.h" />
+		<Unit filename="42FW/audiosource.cpp" />
+		<Unit filename="42FW/audiosource.h" />
+		<Unit filename="42FW/entity.cpp" />
+		<Unit filename="42FW/entity.h" />
+		<Unit filename="42FW/mesh.cpp" />
+		<Unit filename="42FW/mesh.h" />
+		<Unit filename="42FW/reference.h" />
+		<Unit filename="42FW/renderer.cpp" />
+		<Unit filename="42FW/renderer.h" />
+		<Unit filename="42FW/shader.cpp" />
+		<Unit filename="42FW/shader.h" />
+		<Unit filename="42FW/sprite.cpp" />
+		<Unit filename="42FW/sprite.h" />
+		<Unit filename="42FW/texture.cpp" />
+		<Unit filename="42FW/texture.h" />
+		<Unit filename="42FW/window.cpp" />
+		<Unit filename="42FW/window.h" />
+		<Unit filename="bat.cpp" />
+		<Unit filename="bat.h" />
+		<Unit filename="bullet.cpp" />
+		<Unit filename="bullet.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mainmenu.cpp" />
+		<Unit filename="mainmenu.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="powerup.cpp" />
+		<Unit filename="powerup.h" />
+		<Unit filename="world.cpp" />
+		<Unit filename="world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
